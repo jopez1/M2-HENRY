@@ -1,0 +1,10 @@
+.warning {
+    color: red
+  }
+  
+  .danger {
+    font-size: 10px;
+    color: white;
+    margin-left: 10em;
+  }
+  

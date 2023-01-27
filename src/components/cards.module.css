@@ -1,0 +1,48 @@
+/* //descargar estilo de letra para utilizarlo
+@font-face{
+    font-family: rick_and_morty;
+    src: url("./assets/get_schwifty.ttf");
+} */
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.tarjeta {
+  width: 325px;
+  height: 475px;
+  border: 3px solid #555;   
+  background: rgb(176, 191, 202);
+  border-radius: 1rem;
+  font-family: rick_and_morty;
+}
+
+/* border: 3px solid #555;
+    background: white; */
+
+.texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boton {
+  border: none;
+  background-color: rgb(68, 226, 10);
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  border-radius: 1rem;
+}
+
+.boton:hover {
+    background-color: #2626;
+    color: red;
+  
+}
